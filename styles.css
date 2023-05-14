@@ -24,7 +24,6 @@ h2 {
 }
 
 .splashPic {
-    border-radius: 20px;
     flex: 1;
     text-align: center;
     position:relative;
@@ -52,6 +51,7 @@ h2 {
     margin: 0px 0px 10px 0px;
     background-color: #ca1e21;
     text-align:center;
+    border-radius:5px;
 }
 
 a {
@@ -59,6 +59,7 @@ a {
     text-decoration: none;
     background-color: #ca1e21;
     padding: 5px 5px 5px 5px;
+    border-radius:10px;
 }
 
 a:hover {
@@ -69,4 +70,8 @@ a:hover {
     position: fixed;
     top: 30px;
     right: 20px;
+}
+
+img { 
+    border-radius: 20px;
 }
