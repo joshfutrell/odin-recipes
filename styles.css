@@ -1,0 +1,54 @@
+body {
+    background-image: url(images/traderjoesbackground.png);
+    font-family: "Lora", "Times New Roman", "Times", serif;
+    font-size: 18px;
+    font-weight:500;
+    display: flex;
+    flex-wrap:wrap
+}
+
+h1 {
+    color: #ca1e21;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px;
+}
+
+.splashPic {
+    border-radius: 20px;
+    flex: 1;
+    text-align: center;
+    position:relative;
+    top: 25px;
+    margin-bottom: 20px;
+}
+
+.splashPic img {
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+}
+
+.content {
+    flex: 2;
+    text-align: left;
+    position:relative;
+    margin: 0px 30px 0px 30px;
+}
+
+ul li {
+    list-style-type: none;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 0px 10px 0px;
+    background-color: #ca1e21;
+    text-align:center;
+}
+
+a {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
